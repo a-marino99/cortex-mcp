@@ -1,0 +1,45 @@
+{
+  "id": "cortex-mcp",
+  "name": "Cortex MCP Server",
+  "description": "Cortex’s MCP Server brings real-time engineering context into AI assistants and IDEs. Query service ownership, production readiness, migrations, compliance, and more directly from your Cortex workspace.",
+  "repository": "https://github.com/cortexapps/cortex-mcp",
+  "logo": "https://raw.githubusercontent.com/cortexapps/cortex-mcp/main/assets/logo.png",
+  "categories": [
+    "Developer Productivity",
+    "Internal Developer Portal",
+    "Service Ownership",
+    "Compliance",
+    "Engineering Intelligence"
+  ],
+  "auth": {
+    "type": "environment",
+    "variables": ["CORTEX_API_TOKEN"]
+  },
+  "transports": ["stdio", "sse", "streamable-http"],
+  "tools": [
+    "listAllEntities",
+    "listEntityDescriptors",
+    "listDependenciesForEntity",
+    "getDependency",
+    "getEntityDetails",
+    "getCustomDataForEntity",
+    "getCustomDataForEntityByKey",
+    "getCurrentOncallForEntity",
+    "getEntityDescriptor",
+    "listInitiatives",
+    "getInitiative",
+    "listRelationshipTypes",
+    "getRelationshipTypeDetails",
+    "listEntityRelationships",
+    "listScorecards",
+    "getScorecard",
+    "getScorecardNextStepsForEntity",
+    "listScorecardScores"
+  ],
+  "maintainers": [
+    {
+      "name": "Cortex Engineering Team",
+      "email": "help@cortex.io"
+    }
+  ]
+}
