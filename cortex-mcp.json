@@ -1,4 +1,4 @@
-
+{
   "id": "cortex-mcp",
   "name": "Cortex MCP Server",
   "description": "Cortex’s MCP Server brings real-time engineering context into AI assistants and IDEs. Query service ownership, production readiness, migrations, compliance, and more directly from your Cortex workspace.",
@@ -43,5 +43,3 @@
     }
   ]
 }
-
-Add Cortex MCP Server to registry
