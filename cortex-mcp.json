@@ -15,7 +15,7 @@
     "type": "environment",
     "variables": ["CORTEX_API_TOKEN"]
   },
-  "transports": ["stdio", "sse"],
+  "transports": ["stdio", "sse", "streamable-http"],
   "tools": [
     "listAllEntities",
     "listEntityDescriptors",
