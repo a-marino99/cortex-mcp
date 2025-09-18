@@ -13,7 +13,7 @@
   ],
   "auth": {
     "type": "environment",
-    "variables": ["CORTEX_API_TOKEN", "CORTEX_API_BASE_URL"]
+    "variables": ["CORTEX_API_TOKEN"]
   },
   "transports": ["stdio", "sse"],
   "tools": [
